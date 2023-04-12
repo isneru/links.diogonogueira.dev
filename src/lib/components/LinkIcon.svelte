@@ -1,7 +1,9 @@
 <script lang="ts">
-export let icon: () => Promise<any>
+import type { Link } from "$lib/types"
+
+export let icon: Link["icon"]
 </script>
 
-{#await icon() then { default: icon }}
+{#if icon}
 	<svelte:component this={icon} />
-{/await}
+{/if}

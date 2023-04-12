@@ -22,14 +22,12 @@ export let data: PageData
 		{#each links[data.route] as link}
 			<li class="w-full">
 				<a
-					class="flex w-full items-center justify-between rounded border-2 border-primary-600 bg-primary-500 px-2 py-3 text-lg font-semibold text-light transition-colors hover:border-primary-700 hover:bg-primary-600 dark:text-dark"
+					class="flex w-full items-center justify-between rounded-lg border-2 border-primary-600 bg-primary-500 px-5 py-3 text-lg font-semibold text-light transition-colors hover:border-primary-700 hover:bg-primary-600 dark:text-dark"
 					href={link.href}
 					target="_blank"
 					rel="noopener noreferrer"
 					>{link.text}
-					{#if link.icon}
-						<LinkIcon icon={link.icon} />
-					{/if}
+					<LinkIcon icon={link.icon} />
 				</a>
 			</li>
 		{/each}

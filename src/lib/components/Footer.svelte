@@ -8,6 +8,6 @@ import Github from "./icons/Github.svelte"
 		href="https://github.com/isneru/links.diogonogueira.dev"
 		target="_blank"
 		rel="noopener noreferrer"
-		><Github size={24} />
+		><Github />
 	</a>
 </footer>

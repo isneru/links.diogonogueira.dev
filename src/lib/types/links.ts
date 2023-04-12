@@ -5,7 +5,7 @@ export type Routes = Exclude<LayoutRouteId, null>
 export type Link = {
 	text: string
 	href: string
-	icon?: () => Promise<typeof exports>
+	icon?: ConstructorOfATypedSvelteComponent
 }
 
 export type Links = {
