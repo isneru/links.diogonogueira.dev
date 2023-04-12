@@ -1,0 +1,2 @@
+- [ ] SEO Support (add those big juicy images for people to see)
+- [ ] Better colors (current ones are too dull)
